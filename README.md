@@ -13,12 +13,14 @@ A collection of ready-to-deploy [Serverless Framework](https://github.com/server
 <details>
 <summary>Click to expand</summary>
 
-- [Getting Started](#getting-started)
-- [Examples](#examples)
-- [Community Examples](#community-examples)
-- [Contributing](#contributing)
-  * [Adding example code](#adding-example-code)
-  * [Adding a community example](#adding-a-community-example)
+- [Serverless Examples](#serverless-examples)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Examples](#examples)
+  - [Community Examples](#community-examples)
+  - [Contributing](#contributing)
+    - [Adding example code](#adding-example-code)
+    - [Adding a community example](#adding-a-community-example)
 
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -119,9 +121,14 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Aws Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-python-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint with python | python |
 | [Aws Python Sqs Worker](https://github.com/serverless/examples/tree/master/aws-python-sqs-worker) <br/> Serverless Framework Python SQS Producer-Consumer on AWS | python |
 | [Serverless Telegram Bot](https://github.com/serverless/examples/tree/master/aws-python-telegram-bot) <br/> This example demonstrates how to setup an echo Telegram Bot using the Serverless Framework ⚡🤖  | python |
+| [Serverless Ruby Dynamodb Cron](https://github.com/serverless/examples/tree/master/aws-ruby-cron-with-dynamodb) <br/> This is an example of creating a function that runs as a cron job using the serverless 'schedule' event. With the usage of the AWS Lambda function, it creates a record to the DynamoDB each and every 30 minutes. | ruby |
 | [Aws Ruby Line Bot](https://github.com/serverless/examples/tree/master/aws-ruby-line-bot) <br/> Example demonstrates how to setup a simple Line echo bot on AWS | ruby |
 | [Aws Ruby Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-ruby-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint | ruby |
 | [Aws Ruby Sinatra Dynamodb Api](https://github.com/serverless/examples/tree/master/aws-ruby-sinatra-dynamodb-api) <br/> Example of a Ruby Sinatra API service backed by DynamoDB with traditional Serverless Framework | ruby |
+| [Aws Ruby Step Functions Callback](https://github.com/serverless/examples/tree/master/aws-ruby-step-functions-with-callback) <br/> Ruby example that make usage of AWS Step Functions with callback pattern, AWS Lambda, DynamoDB, Amazon Comprehend, API Gateway, and Step Functions flows | ruby |
+| [Serverless Ruby Sqs Dynamodb](https://github.com/serverless/examples/tree/master/aws-ruby-sqs-with-dynamodb) <br/> A serverless ruby example that creates DynamoDB records with the usage of SQS, API Gateway, and AWS Lambda functions. | ruby |
+| [Aws Ruby Step Functions](https://github.com/serverless/examples/tree/master/aws-ruby-step-functions) <br/> Ruby example that make usage of AWS Step Functions with AWS Lambda, DynamoDB and Step Functions flows. | ruby |
+| [Aws Ruby Step Functions Express Workflow](https://github.com/serverless/examples/tree/master/aws-ruby-step-functions-express) <br/> Ruby example that make usage of AWS Step Functions Express Type with AWS Lambda, DynamoDB, Amazon SES, API Gateway, and Step Functions flows | ruby |
 | [Aws Rust Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-rust-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint with rust | nodeJS |
 | [Azure Nodejs](https://github.com/serverless/examples/tree/master/azure-node-line-bot) <br/> Azure Functions sample for the Serverless framework | nodeJS |
 | [Azure Node Simple Http Endpoint](https://github.com/serverless/examples/tree/master/azure-node-simple-http-endpoint) <br/> An example of making http endpoints with the Azure Functions Serverless Framework plugin | nodeJS |
@@ -175,7 +182,6 @@ serverless install -u https://github.com/author/project -n my-project
 | **[Commenting Api](https://github.com/AyoubEd/serverless_typescript_graphQl_commentingService)** <br/> A commenting api using Serverless Typescript GraphQl and Redis | [AyoubEd](http://github.com/AyoubEd) |
 | **[Daily Instance Backups With Ami Rotation](https://github.com/AndrewFarley/AWSAutomatedDailyInstanceAMISnapshots)** <br/> A simple Python application which scans through your entire AWS account for tagged instances, makes daily AMIs of them, and rotates their backups automatically | [AndrewFarley](http://github.com/AndrewFarley) |
 | **[Demo Project For Serverless Migrate Plugin](https://github.com/EliuX/serverless-migrate-plugin/tree/master/example)** <br/> An example about how to use migrations in your serverless project with serverless-migrate-plugin | [EliuX](http://github.com/EliuX) |
-| **[Dropbucket   Serverless File Sharing](https://github.com/marksteele/drop-bucket)** <br/> A serverless file sharing app powered by Cognito/S3/Lambda/API Gateway. Includes a React single-page app UI and virus scanning. | [marksteele](http://github.com/marksteele) |
 | **[Express Application With Lambda](https://github.com/HoseungJang/serverless-lambda-express-example)** <br/> This example demonstrates how to build an express application for AWS Lambda based on serverless framework. | [HoseungJang](http://github.com/HoseungJang) |
 | **[Fotopia Serverless](https://github.com/mbudm/fotopia-serverless)** <br/> A photo archive web app including API, storage and face detection using serverless framework | [mbudm](http://github.com/mbudm) |
 | **[Golive](https://github.com/adimoraret/golive/)** <br/> Boilerplate to live stream using AWS MediaLive and MediaStore | [adimoraret](http://github.com/adimoraret) |

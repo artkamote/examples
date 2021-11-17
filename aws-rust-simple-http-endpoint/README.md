@@ -5,6 +5,7 @@ layout: Doc
 framework: v1+
 platform: AWS
 language: Rust
+priority: 10
 authorLink: 'https://github.com/jonee'
 authorName: 'Jonee Ryan Ty'
 authorAvatar:
@@ -46,7 +47,7 @@ serverless-state.json
 ## 4. Invoke deployed function
 
 ```bash
-$ curl https://***.execute-api.us-east-1.amazonaws.com/dev/test/test
+$ curl https://***.execute-api.us-east-1.amazonaws.com/test/test
 {"message":"Serverless Rust Hello"}
 ```
 
